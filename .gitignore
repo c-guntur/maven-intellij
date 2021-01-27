@@ -1,4 +1,6 @@
 /maven-single/.idea/
 /maven-single/target/
+/maven-multi/.idea/
+/maven-multi/**/target/
 **/*.iml
 
