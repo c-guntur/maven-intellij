@@ -1,0 +1,27 @@
+# Maven Single Module
+
+This is a sample "Hello World" project following the standard maven conventions.
+
+This project will be used to demonstrate the Apache Maven features in IntelliJ IDEA.
+
+## Project Structure
+
+```
+|____pom.xml                      <----- The project POM
+|____README.adoc                  <----- This file
+|____Agenda.txt                   <----- What we will cover
+|____src
+| |____main
+| | |____java
+| | | |____none
+| | | | |____cvg
+| | | | | |____maven
+| | | | | | |____App.java         <----- A "Hello World" class
+| |____test
+| | |____java
+| | | |____none
+| | | | |____cvg
+| | | | | |____maven
+| | | | | | |____AppTest.java     <----- A basic test
+
+```

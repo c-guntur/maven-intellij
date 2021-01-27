@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>none.cgutils.maven</groupId>
+  <artifactId>maven-single</artifactId>
+  <version>1.0.0</version>
+
+  <name>maven-single</name>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+    <!-- Specify the Java version for the compiler plugin here -->
+    <maven.compiler.source>15</maven.compiler.source>
+    <maven.compiler.target>15</maven.compiler.target>
+    <!-- Available from Java 9, setting release includes source and target (and then some) -->
+    <maven.compiler.release>15</maven.compiler.release>
+
+    <!-- Specify the java version that may be used in places other than the compiler plugin -->
+    <java.version>15</java.version>
+    <jdk.version>15</jdk.version>
+
+  </properties>
+
+  <build>
+    <plugins>
+      <!-- Enforce the plugin version, rather than rely on defaults -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+      </plugin>
+      <!-- Enforce the plugin version, rather than rely on defaults -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.22.2</version>
+      </plugin>
+    </plugins>
+  </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>5.7.0</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+</project>

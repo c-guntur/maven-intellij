@@ -1,0 +1,33 @@
+➡️ Maven and IntelliJ IDEA
+
+📌 Create a maven project - Use a quickstart.
+
+📌 Open a maven project - Launch project from a root pom.xml.
+
+📌 Show structure view of pom - Open a POM file, review Structure.
+
+📌 Show maven toolbar - Walk through the Maven Tool Window.
+
+📌 Show source pom - Navigate to the pom.xml from the Maven Tool Window.
+
+📌 Show download sources and javadoc - Download available sources and javadoc artifacts.
+
+📌 Customize maven - Maven settings on the Maven Tool Window.
+
+📌 Customize settings and repository - Maven Settings Dialog via the Maven Tool Window.
+
+📌 Run life cycles - Select one or more Lifecycle phases
+
+📌 Run life cycles - Create a custom build.
+
+📌 Create run configurations - Save a maven run configuration.
+
+📌 Customize run configurations - Edit maven settings in a Run configuration.
+
+📌 Share run configurations - Save the run configurations for sharing with the team.
+
+📌 Show dependencies diagram - Launch the Dependencies from the Structure.
+
+📌 Show terminal usage - Show how to invoke maven commands from the Terminal Tool Window.
+
+📌 Show Run Anything - Show how to invoke maven commands from the Run Anything popup.
