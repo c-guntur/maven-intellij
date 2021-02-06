@@ -1,6 +1,5 @@
-/maven-single/.idea/
-/maven-single/target/
-/maven-multi/.idea/
-/maven-multi/**/target/
+/**/.idea/
+/**/target/
+/maven-demo/**/*
 **/*.iml
 
