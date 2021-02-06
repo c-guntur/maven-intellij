@@ -1,10 +1,16 @@
-# Maven Single Module
+= Maven Single Module
 
 This is a sample "Hello World" project following the standard maven conventions.
 
 This project will be used to demonstrate the Apache Maven features in IntelliJ IDEA.
 
-## Project Structure
+== GitHub Coordinates
+
+image:../MavenIntelliJGitHub.png[align="center"]
+
+=== https://github.com/c-guntur/maven-intellij
+
+== Project Structure
 
 ```
 |____pom.xml                      <----- The project POM

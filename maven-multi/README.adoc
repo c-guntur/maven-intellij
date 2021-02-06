@@ -1,37 +1,43 @@
-# Maven Multi Module
+= Maven Multi Module
+
+== GitHub Coordinates
+
+image:../MavenIntelliJGitHub.png[align="center"]
+
+=== https://github.com/c-guntur/maven-intellij
 
 
-## About the project
+== About the project
 
 This is a greeter project. The running of the main class in this project prints a "Good [morning, afternoon or evening], today is: <yyyy-MM-dd>". The root POM is an aggregator that declares three modules:
 
-### datetime-fetcher
+=== datetime-fetcher
 
 The link:datetime-fetcher/[datetime-fetcher] module provides the local date time as well as a mapper to time periods of morning, afternoon and evening. The link:datetime-fetcher/src/main/java/module-info.java[module-info.java] exports and opens packages for use in other modules. The link:datetime-fetcher/pom.xml[POM] declares itself a child of the aggregator root POM.
 
-### greeting
+=== greeting
 
 The link:greeting/[greeting] module formats the date time information and time period into a string. The link:greeting/src/main/java/module-info.java[module-info.java] specifies the requirement of the *datetime-fetcher module* and exports the greeting classes for use in other modules. The link:greeting/pom.xml[POM] declares itself a child of the aggregator root POM and among other things, declares a dependency on the *datetime-fetcher* jar.
 
-### greeting-generator
+=== greeting-generator
 
 The link:greeting-generator/[greeting-generator] module invokes the greeting module. The link:greeting-generator/src/main/java/module-info.java[module-info.java] specifies the requirement of the *greeting module*. The link:greeting-generator/pom.xml[POM] declares itself a child of the aggregator root POM and among other things, declares a dependency on the *greeting* jar.
 
-## Understanding "modules"
+== Understanding "modules"
 
-### Maven modules
+=== Maven modules
 
 Maven has a concept of *_modules_* that define project structure to better organize grouping of code and provide for a possible independent control of versions and dependencies. A POM declaring modules specifies a _downward hierarchy_ of sub-projects that are aggregated. A child POM can additionally declare a *_parent_* to declare an _upward hierarchy_ for the specific subproject.
 
-### IntelliJ modules
+=== IntelliJ modules
 
 IntelliJ *_modules_* are quite similar in perspective to maven modules. IntelliJ modules focus on specific JDK versions, customizable sources and resources per module etc. Each module notably, has a specific entry in the .idea/modules.xml and .idea/compiler.xml, among other things.
 
-### Java modules
+=== Java modules
 
 Java *_modules_* focus on strong encapsulation and setting up a modular set of permissions and restrictions on a package-level for Java classes. Java modules do not control either the versions of Java used or the version of the subproject artifact.
 
-## Project Structure
+== Project Structure
 
 ```
 .
