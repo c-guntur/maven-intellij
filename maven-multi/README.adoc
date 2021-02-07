@@ -2,7 +2,7 @@
 
 == GitHub Coordinates
 
-image:../MavenOnIntelliJIDEA.png[align="center"]
+image:../RepoLogo.png[align="center"]
 
 === https://github.com/c-guntur/maven-intellij
 

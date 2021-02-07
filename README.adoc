@@ -1,6 +1,6 @@
 # Maven with IntelliJ
 
-image::Maven On IntelliJ IDEA.png[Apache Maven on IntelliJ IDEA,400,600]
+image:../RepoLogo.png[align="center"]
 
 Apache Maven is a build mamagement tool that provides both project building as well as project and site management among multiple other features.
 
