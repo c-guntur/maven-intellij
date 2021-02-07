@@ -1,8 +1,8 @@
 # Maven with IntelliJ
 
-image:../RepoLogo.png[align="center"]
+image:RepoLogo.png[align="center"]
 
-Apache Maven is a build mamagement tool that provides both project building as well as project and site management among multiple other features.
+Apache Maven is a build management tool that provides both project building, as well as, project and site management among multiple other features.
 
 IntelliJ IDEA from Jetbrains, is one of the most well-known Integrated Development Environments for Java.
 
