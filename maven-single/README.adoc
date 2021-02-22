@@ -8,8 +8,6 @@ This project will be used to demonstrate the Apache Maven features in IntelliJ I
 
 image:../RepoLogo.png[align="center"]
 
-=== https://github.com/c-guntur/maven-intellij
-
 == Project Structure
 
 ```
