@@ -4,9 +4,6 @@
 
 image:../RepoLogo.png[align="center"]
 
-=== https://github.com/c-guntur/maven-intellij
-
-
 == About the project
 
 This is a greeter project. The running of the main class in this project prints a "Good [morning, afternoon or evening], today is: <yyyy-MM-dd>". The root POM is an aggregator that declares three modules:
